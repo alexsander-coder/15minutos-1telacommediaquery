@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+.conteudo-one{
+    width: 75%;
+    margin-left: 13%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 0px grey;
+    margin-top: 60px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Nunito Sans', sans-serif;
+}
+p{
+    font-style:oblique;
+    font-size: 17px;
+}
+
+.hue{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+a{
+    margin-top: 25px;
+    text-decoration: none;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover{
+    margin-top: 25px;
+    text-decoration: none;
+    color: rgb(112, 83, 243);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.re{
+    margin-right: 50px;
+    margin-top: 25px;
+    color: gray;
+}
+
+.texto{
+    margin-left: 115px;
+    margin-top: 110px;
+    color: rgb(112, 83, 243);
+}
+
+.brow{
+    width: 128px;
+    height: 38px;
+    border-radius: 12px;
+    border: none;
+    font-size: 18px;
+    background-color: tomato;
+    color: #fff;
+    margin-top: 33px;
+    margin-left: 80px;
+    box-shadow: 1px 1px 10px 0px grey;
+}
+.brow:hover{
+    width: 128px;
+    height: 38px;
+    border-radius: 12px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgb(255, 77, 45);
+    color: #fff;
+    box-shadow: 1px 1px 5px 0px grey;
+}
+
+.over{
+    float: right;
+    width: 363px;
+    margin-top: -266px;
+    margin-right: 75px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .over {
+     width: 350px;
+     margin: -270px;
+     margin-right: 20px;
+    }
+  }
+  @media only screen and (max-width: 950px) {
+    .over {
+      display: none;
+    }
+    .texto{
+        margin-left: 200px;
+    }
+  }
+  @media only screen and (max-width: 580px){
+    .texto{
+      margin: 110px;
+    }
+
+  }
+
+  @media only screen and (max-width: 375px) {
+   
+    .texto{
+        margin-left: 45px;
+        margin-top: 30px;
+        font-size: 17px;
+    }
+    .brow{
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+    a{
+        color: rgb(185, 185, 185);
+        text-align: center;
+        margin-right: 40px;
+    }
+    .re{
+        color: rgb(255, 179, 80);
+        
+    }
+    .hue{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 80px;
+        align-items: center;
+        color: #fff;
+    }
+
+    .conteudo-one{
+        background-color: rebeccapurple;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 70px 10px 20px 46px;
+    }
+  }
